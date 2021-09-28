@@ -1,9 +1,13 @@
+/* eslint-disable no-useless-constructor */
 import { Card, CardContent, CardActionArea, CardMedia, CardActions, Button, Typography } from '@mui/material';
 import React from 'react';
 import honeybadger from './../honey_badger.jpeg';
 
 
 class Content extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
     render() {
         return(
